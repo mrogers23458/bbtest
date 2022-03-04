@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout-app', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/bbtest', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 });

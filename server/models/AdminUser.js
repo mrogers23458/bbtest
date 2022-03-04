@@ -12,8 +12,7 @@ const adminUserSchema = new Schema(
         password: {
             type: String,
             required: true
-        },
-
+        }
     },
 
     {

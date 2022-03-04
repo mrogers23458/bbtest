@@ -5,19 +5,11 @@ const typeDefs = gql`
         _id: ID
         email: String
         password: String
-        notes: [Note]
     }
 
     type Auth {
     token: ID!
     user: User
-    }
-
-    type Note {
-        _id: ID
-        title: String
-        note: String
-        userId: ID
     }
 
     type Query {
